@@ -14,13 +14,7 @@
             "LaravelDevSupport\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "LaravelDevSupport\\Providers\\LaravelDevSupportServiceProvider"
-            ]
-        }
-    },
+
     "require": {
         "phpoffice/phpspreadsheet": "^5.1"
     },
