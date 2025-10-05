@@ -37,7 +37,8 @@ if NOT EXIST "%BASEDIR%bin\composer.json" (
 
 rem require packages
 rem ext-gd, ext-zip required
-php bin/composer.phar require phpoffice/phpspreadsheet --prefer-source
+@REM php bin/composer.phar require phpoffice/phpspreadsheet --prefer-source
+php bin/composer.phar require phpmyadmin/sql-parser
 php bin/composer.phar require laravel/framework:^10.0 --dev
 php bin/composer.phar require phpstan/phpstan --dev
 
