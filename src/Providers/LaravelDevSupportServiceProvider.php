@@ -18,7 +18,7 @@ class LaravelDevSupportServiceProvider extends ServiceProvider
     public function register()
     {
         // commands
-        Artisan::registerCommand(resolve(\LaravelDevSupport\Console\Commands\TestCommand::class));
+        // Artisan::registerCommand(resolve(\LaravelDevSupport\Console\Commands\TestCommand::class));
         // services
     }
 }
