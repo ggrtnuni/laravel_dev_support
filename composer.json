@@ -1,0 +1,25 @@
+{
+    "name": "ggrtnuni/laravel_dev_support",
+    "version": "1.0.0",
+    "description": "laravel dev support",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelDevSupport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ggrtnuni"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.1"
+    },
+    "require-dev": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "phpstan/phpstan": "^2.1"
+    }
+}
