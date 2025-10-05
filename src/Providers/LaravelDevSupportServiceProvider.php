@@ -3,7 +3,6 @@
 namespace LaravelDevSupport\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Artisan;
 use LaravelDevSupport\Console\Commands\TestCommand;
 
 class LaravelDevSupportServiceProvider extends ServiceProvider
