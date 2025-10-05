@@ -4,16 +4,23 @@
     "description": "laravel dev support",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "LaravelDevSupport\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "ggrtnuni"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "LaravelDevSupport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelDevSupport\\Providers\\LaravelDevSupportServiceProvider"
+            ]
+        }
+    },
     "require": {
         "phpoffice/phpspreadsheet": "^5.1"
     },
